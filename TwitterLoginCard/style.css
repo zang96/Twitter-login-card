@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ecf0f3;
+}
+
+.login-card-container{
+    height: 550px;
+    width: 25%;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #ecf0f3;
+    position: relative;
+    padding-top: 20px;
+    padding: 10px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 10px #ffffff;
+    border-radius: 10px;
+}
+
+
+
+#img-container{
+    background-color: #ecf0f3;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-left: 115px;
+    border-radius: 50px;
+    animation: roll 5s infinite;
+    box-shadow: 0 0 2px #5f5f5f, 0 0 0 5px #ecf0f3, 8px 8px 15px #a7aaaf, -8px -8px 15px #ffffff;
+    margin-top: 20px;
+
+}
+
+@keyframes roll{
+    from{
+        transform: rotate(0);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#img-container img{
+    height: 50px;
+    top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: absolute;
+    
+}
+
+#check1, #check2{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 35px;
+    width: 250px;
+    box-shadow: inset 10px 10px 10px #cbcedc;
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #00acee;
+}
+
+p{
+    margin-left: 20px;
+}
+
+button{
+    align-items: center;
+    margin-left: 13%;
+    width: 250px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00acee;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.signin-container{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+#fp{
+    width: 50%;
+    color: #00acee;
+    cursor: pointer;
+}
+
+#su{
+    width: 50%;
+    text-align: end;
+    color: #00acee;
+    cursor: pointer;
+}
+
+
+
+
+#end{
+    margin-left: 199px;
+    font-size: 10px;
+    background-color: orange;
+    display: inline;
+}
+
+.verify{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#robot{
+    display: inline;
+    
+}
+
+.login{
+    position: relative;
+}
+
+#log{
+    background-color: #00acee;
+    margin-left: 58%;
+    position: absolute;
+    top: 0px;
+}
